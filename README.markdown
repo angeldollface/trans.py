@@ -14,7 +14,7 @@ To use this tool, you need the following tools installed and available from the 
 - [Git](https://git-scm.org)
 - [FFMPEG](https://ffmpeg.org/)
 
-To download the tool, simply save the file from [this link]().
+To download the tool, simply save the file from [this link](https://raw.githubusercontent.com/angeldollface/trans.py/main/src/trans.py).
 
 To use this, you need to have your audio file in the *WAV* format.
 You also need to know exactly how long your adio file is in seconds
