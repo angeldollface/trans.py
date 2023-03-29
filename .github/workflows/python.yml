@@ -19,5 +19,5 @@ jobs:
           pip install -r requirements.txt
       - name: Run the example.
         run: |
-          python src/trans.py --source sample/start.wav --output ./out.txt --length 16
+          python src/trans.py --source sample/start.wav --target ./out.txt --length 16
           cat ./out.txt
