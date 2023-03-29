@@ -9,14 +9,17 @@ def process_audio(src, target, duration):
     Main function to process the audio
     file.
     """
-    target_file = open(target, 'w')
-    target_file = open(target, 'a')
-    recog = sr.Recognizer()
-    audio = sr.AudioFile(src)
-    with audio as source:
-        sound = recog.record(source, duration=duration)
-        target_file.write(recog.recognize_google(sound))
-    target_file.close()
+    try:
+        target_file = open(target, 'w')
+        target_file = open(target, 'a')
+        recog = sr.Recognizer()
+        audio = sr.AudioFile(src)
+        with audio as source:
+            sound = recog.record(source, duration=duration)
+            target_file.write(recog.recognize_google(sound))
+        target_file.close()
+    except Exception as error:
+        print(str(error))
 
 def main():
     """
@@ -32,7 +35,7 @@ def main():
         audio_length = int(args.length)
         process_audio(args.source, args.target, audio_length)
     else:
-        print('Invalid args supplied!')
+        print('Invalid options supplied!')
 
 if __name__ == '__main__':
     """
