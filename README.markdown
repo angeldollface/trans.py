@@ -34,6 +34,8 @@ The command above will transcribe a file by the name of `yourfile.wav` with the 
 
 ## CHANGELOG :black_nib:
 
+### Version 1.0.0
+
 - Initial release.
 - Added more documentation.
 
