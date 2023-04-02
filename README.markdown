@@ -20,12 +20,32 @@ To use this tool, you need the following tools installed and available from the 
 
 ### Steps
 
-- 1.) Download *trans.py* from [this link](https://raw.githubusercontent.com/angeldollface/trans.py/main/src/trans.py). (*You need to have your audio file in the **WAV** format.*)
-- 2.) Find out how long your audio file is in seconds.
-- 3.) To transcribe your file, run this command in the same folder in which you saved this app and your *WAV* file from the command line:
+- 1.) Open a command prompt.
+
+- 2.) Clone this repository's source code with this command:
 
 ```bash
-python3 trans.py --source yourfile.wav --target output.txt --length 45
+git clone https://github.com/angeldollface/trans.py.git
+```
+
+- 3.) Change directory into the source code's root directory:
+
+```bash
+cd trans.py
+```
+
+- 4.) Install *trans.py*'s dependencies:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+- 5.) Find out how long your audio file is in seconds. The audio file needs to be in the *WAV* file format.
+
+- 6.) Place your audio files into the `trans.py` directory. Transcribe them by running this command from the command line:
+
+```bash
+python3 src/trans.py --source yourfile.wav --target output.txt --length 45
 ```
 
 The command above will transcribe a file by the name of `yourfile.wav` with the length of 45 seconds into a text file called `output.txt`. Obviously `yourfile.wav` represents your *WAV* file and 45 represents the length of your *WAV* file in seconds. `python3` may not be the name of your Python 3.x executable, so adjust the command above accordingly.
