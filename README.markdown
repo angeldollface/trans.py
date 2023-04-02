@@ -16,7 +16,6 @@ To use this tool, you need the following tools installed and available from the 
 
 - [Python 3.x](https://www.python.org/)
 - [Git](https://git-scm.org)
-- [FFMPEG](https://ffmpeg.org/)
 
 ### Steps
 
