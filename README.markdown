@@ -20,7 +20,7 @@ To use this tool, you need the following tools installed and available from the 
 
 ### Steps
 
-- 1.) Download the tool, simply save the file from [this link](https://raw.githubusercontent.com/angeldollface/trans.py/main/src/trans.py). (*You need to have your audio file in the **WAV** format.*)
+- 1.) Download *trans.py* from [this link](https://raw.githubusercontent.com/angeldollface/trans.py/main/src/trans.py). (*You need to have your audio file in the **WAV** format.*)
 - 2.) Find out how long your audio file is in seconds.
 - 3.) To transcribe your file run this command in the same folder in which you saved this app and your *WAV* file:
 
