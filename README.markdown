@@ -6,7 +6,7 @@
 
 ## ABOUT :books:
 
-I had a project for uni where I had to transcribe a long-ass audio and if you think I'd do this by hand, you're mental. Anyway, because most problems can be solved with code, I tried to solve this one with code too. ***Trans.py*** is that solution. Enjoy! :heart:
+I had to transcibe a long audio file recently for a project at university and I didn't want to do this manually. To do the transcription for me, I coded this tool. Enjoy. :heart:
 
 ## USAGE :hammer:
 
