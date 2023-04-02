@@ -42,7 +42,7 @@ python3 -m pip install -r requirements.txt
 
 - 5.) Find out how long your audio file is in seconds. The audio file needs to be in the *WAV* file format.
 
-- 6.) Place your audio files into the `trans.py` directory. Transcribe them by running this command from the command line:
+- 6.) Place your audio files into the `trans.py` directory. Transcribe them by running this command from the command line (You can only transcribe one file at a time. Make sure to change the file names of the output files accordingly so no data is lost.):
 
 ```bash
 python3 src/trans.py --source yourfile.wav --target output.txt --length 45
